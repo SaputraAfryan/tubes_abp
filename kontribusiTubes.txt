@@ -1,0 +1,5 @@
+Adhie Rachmatulloh Sugiono (1301194059) : resources\views\signin.blade.php
+Egi Shidqi Rabbani (1301190443) : resources\views\partials
+Fahriza Ichsani Rafif (1301191055) : resources\views\layouts
+Gian Maxmillian Firdaus (1301190209) : resources\views\signup.blade.php
+Muhammad Afryan Saputra (1301190013) : resources\views\home.blade.php; routes\web.php
