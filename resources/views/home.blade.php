@@ -8,7 +8,7 @@
                     <div style="color: #330066">
                         <div class="d-flex justify-content-between">
                             <h2>Rekomendasi Pariwisata</h2>
-                            <a href="/" class="btn btn-warning">See More</a>
+                            <a href="/pariwisata" class="btn btn-warning">See More</a>
                         </div>
                         <div class="d-flex justify-content-center" style="padding: 20px;background-color:#60c5fc">
                             <ul class="list-inline-block">
@@ -32,7 +32,7 @@
                 <div style="color: #330066">
                     <div class="d-flex justify-content-between">
                         <h2>Rekomendasi Penginapan</h2>
-                        <a href="/" class="btn btn-warning">See More</a>
+                        <a href="/penginapan" class="btn btn-warning">See More</a>
                     </div>
                     <div class="d-flex justify-content-center" style="padding: 20px;background-color:#60c5fc">
                         <ul class="list-inline-block">
@@ -56,7 +56,7 @@
                 <div style="color: #330066">
                     <div class="d-flex justify-content-between">
                         <h2>Pariwisata Terdekat</h2>
-                        <a href="/" class="btn btn-warning">See More</a>
+                        <a href="/nearest" class="btn btn-warning">See More</a>
                     </div>
                     <div class="d-flex justify-content-center" style="padding: 20px;background-color:#60c5fc">
                         <ul class="list-inline-block">

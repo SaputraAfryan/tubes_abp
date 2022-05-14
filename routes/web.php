@@ -24,3 +24,15 @@ Route::get('/signin', function(){
 Route::get('/signup', function () {
     return view('signup');
 });
+
+Route::get('/pariwisata', function(){
+    return view('pariwisata');
+});
+
+Route::get('/penginapan', function () {
+    return view('penginapan');
+});
+
+Route::get('/nearest', function () {
+    return view('nearest');
+});
