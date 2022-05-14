@@ -6,6 +6,9 @@
       </a>
       <div class="d-flex flex-row-reverse">
         <div class="p-2">
+          <a href="/about" class="btn btn-info" role="button">About</a>
+        </div>
+        <div class="p-2">
           <a href="/signup" class="btn btn-secondary" role="button">Sign Up</a>
         </div>
         <div class="p-2">

@@ -36,3 +36,7 @@ Route::get('/penginapan', function () {
 Route::get('/nearest', function () {
     return view('nearest');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
