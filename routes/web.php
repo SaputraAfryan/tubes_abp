@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,16 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
- 
-Route::get('/signin', function(){
-    return view('signin');
-});
-
-Route::get('/signup', function () {
-    return view('signup');
+Route::controller(HomeController::class)->group(function () {
+    Route::get('/', 'showHome');
+    Route::get('/signin', 'showIn');
+    Route::get('/signup', 'showOut');
+    Route::get('/about', 'showAbout');
 });
 
 Route::get('/pariwisata', function(){
@@ -35,8 +31,4 @@ Route::get('/penginapan', function () {
 
 Route::get('/nearest', function () {
     return view('nearest');
-});
-
-Route::get('/about', function () {
-    return view('about');
 });

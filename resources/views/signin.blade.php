@@ -1,4 +1,4 @@
-@extends('layouts.login')
+@extends('layouts.login', ['title' => $title[1]])
 
 @section('container')
 <div class="container-category fluid" style="padding:20px;background-color: #60c5fc">
@@ -26,7 +26,7 @@
                                 </div>
                             </div>
                             <div class="btn-group mt-4">
-                                <a href="/" class="btn btn-outline-succes">Back</a>
+                                <a href="/" class="btn btn-outline-success">Back</a>
                                 <a href="/" class="btn btn-primary">Sign In</a>
                                 <a href="/signup" class="btn btn-outline-primary">Sign up</a>
                             </div>

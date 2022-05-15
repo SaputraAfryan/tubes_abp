@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.main', ['title' => $title[0]])
 
 @section('pariwisata')
     <div class="container-category" style="padding:20px;background-color: #60c5fc">

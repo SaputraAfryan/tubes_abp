@@ -1,4 +1,4 @@
-@extends('layouts.login')
+@extends('layouts.login', ['title' => $title[2]])
 
 @section('container')
 <div class="container-category fluid" style="padding:20px;background-color: #60c5fc">
