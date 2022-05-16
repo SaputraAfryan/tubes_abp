@@ -3,12 +3,16 @@
 namespace App\Http\Controllers;
 
 use App\Models\Home;
+use App\Models\Pariwisata;
+use App\Models\Penginapan;
 use App\Http\Requests\StoreHomeRequest;
 use App\Http\Requests\UpdateHomeRequest;
 use App\Http\Controllers\HomeController;
 
 class HomeController extends Controller
 {
+    
+
     /**
      * Display the specified resource.
      *
@@ -17,7 +21,9 @@ class HomeController extends Controller
      */
     public function showHome(){
         $title = Home::pluck('title');
-        return view('home', compact('title'));
+        $pariwisata = Pariwisata::all();
+        $penginapan = Penginapan::all();
+        return view('home', compact(['title', 'pariwisata', 'penginapan']));
     }
 
     /**

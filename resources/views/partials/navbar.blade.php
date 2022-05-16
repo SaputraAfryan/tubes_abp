@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light" style="background-color: #ffffff">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
-        <img src="logoABP.png" alt="logo.png" width="125" height="95" class="d-inline-block align-text-middle">
+        <img src="/logoABP.png" alt="logo.png" width="125" height="95" class="d-inline-block align-text-middle">
         Easycation
       </a>
       <div class="d-flex flex-row-reverse">

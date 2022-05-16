@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PariwisataController;
+use App\Http\Controllers\PenginapanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,14 +23,16 @@ Route::controller(HomeController::class)->group(function () {
     Route::get('/about', 'showAbout');
 });
 
-Route::get('/pariwisata', function(){
-    return view('pariwisata');
+Route::controller(PariwisataController::class)->group(function () {
+    Route::get('/pariwisata', 'index');
+    Route::get('/pariwisata/{id}', 'show');
 });
 
-Route::get('/penginapan', function () {
-    return view('penginapan');
+Route::controller(PenginapanController::class)->group(function () {
+    Route::get('/penginapan', 'index');
+    Route::get('/penginapan/{id}', 'show');
 });
 
-Route::get('/nearest', function () {
-    return view('nearest');
-});
+// Route::get('/nearest', function () {
+//     return view('nearest');
+// });
